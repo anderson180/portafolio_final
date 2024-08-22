@@ -9,7 +9,7 @@ import image13 from '../pages/page/numero13.jpg';
 const Portafolio = () => {
   // Crea una referencia para el elemento que tendrá el efecto Typed.js
   const typedElementRef = useRef(null);
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
 
   useEffect(() => {
@@ -48,8 +48,7 @@ const Portafolio = () => {
           
           <div className='portafolio__container4'>
             <img src={image13} alt="image13" className='portafolio__logo1' />
-            <h1 className='portafolio__title'>
-              ¡Hola!, soy Anderson Javier Acibe, estudiante de Academlo. Soy un desarrollador web</h1>
+            <h1 className='portafolio__title'>{t('por.title')}</h1>
           </div>
           <span className='portafolio__nombre' ref={typedElementRef}></span>
           <p className='portafolio__p'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>

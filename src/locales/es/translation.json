@@ -10,5 +10,32 @@
       "start": "Empezar",
       "white": "Blanco",
       "black": "Negro"
-    }
+    },
+    "por": {
+"title":"¡Hola!, soy Anderson Javier Acibe, estudiante de Academlo. Soy un desarrollador web"
+    },
+    "mis": {
+    "title": "Mis Projectos",
+    "1": "Rick y Morty",
+    "2": "Comercio electrónico",
+    "3": "Registro de Usuarios",
+    "4": "Tarjetas",
+    "5": "Botones",
+    "6": "¿A dónde quieres ir?",
+    "7": "Ir a Netlify",
+    "8": "Ir a GitHub"
+  },
+"con": {
+    "title":"Contacto",
+    "1":"Si quieres conocer un poco más sobre mí o mi trabajo, envíame un mensaje. Me alegraría saber de ti.",
+    "2":"Nombre",
+    "3":"Gmail",
+    "4":"Mensaje",
+    "5":"Enviar",
+    "6":"Estamos en contacto, no dudes en comunicarte, gracias por tu tiempo."
+  },
+  "acer": {
+  "title":"About Me",
+  "1":"Soy egresado de la Universidad de Iuta 'Venezuela' y de la Academia de Academia, 'México', especializado en higiene y seguridad industrial, y desarrollador web full stack... Me gusta, y me atrae mucho la idea de diseñar y crear páginas, todas las funcionalidades que podamos realizar en ellas, sumergirme en el mundo del desarrollo web y dar siempre lo mejor de mí para ir más y más lejos. También en ayudar, enseñar y dirigir a las personas para que conozcan cuáles son los riesgos laborales que pueden surgir en el ámbito laboral. Me gusta mucho aprender de todo, hacer deporte, escuchar música y hacer ejercicio en mi tiempo libre."
+}
   }

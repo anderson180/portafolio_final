@@ -1,14 +1,41 @@
 {
-    "nav": {
-      "home": "Home",
-      "about": "About Me",
-      "projects": "Projects",
-      "contact": "Contact"
-    },
-    "paginainicio": {
-      "welcome": "welcome.!!",
-      "start": "Start",
-      "white": "White",
-      "black": "black"
-    }
-  }
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "paginainicio": {
+    "welcome": "welcome.!!",
+    "start": "Start",
+    "white": "White",
+    "black": "black"
+  },
+  "por": {
+    "title": "Hello!, I'm Anderson Javier Acibe, a student at Academlo. I'm a web developer"
+  },
+  "mis": {
+    "title": "My Projects",
+    "1": "Rick et Morty",
+    "2": "E-commerce",
+    "3": "User Registration",
+    "4": "Cards",
+    "5": "Bellboy",
+    "6": "Where do you want to go?",
+    "7": "Go to Netlify",
+    "8": "Go to GitHub"
+  },
+  "con": {
+    "title":"Contact",
+    "1":"If you want to know a little more about me or my work, send me a message. I'd be glad to hear from you.",
+    "2":"Name",
+    "3":"Gmail",
+    "4":"Message",
+    "5":"Send",
+    "6":"We are in touch, do not hesitate to reach out, thank you for your time."
+  },
+"acer": {
+  "title":"About Me",
+  "1":"I am a graduate of the University of Iuta 'Venezuela' and the Academy of Academia, 'Mexico', specialized in industrial hygiene and safety, and full stack web developer... I like, and I am very attracted to the idea of designing and creating pages, every functionality that we can perform on them, immersing myself in the world of web development and always giving my best to go further and further. Also in helping, teaching and directing people so that they know what are the occupational risks that can arise in the workplace. I really like learning everything, playing sports, listening to music and exercising in my free time."
+}
+}

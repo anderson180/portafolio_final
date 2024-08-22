@@ -40,6 +40,7 @@ height: 10px;
     margin: 10px 10px;
     padding: 0px 0px;
     gap: 10px;
+    
   }
   .acercademi__container3 {
     color: rgb(155, 153, 153);
@@ -63,6 +64,7 @@ height: 10px;
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
+  
 }
 
 .acercademi__container2 {
@@ -92,4 +94,5 @@ margin:50px 10px;
   /* Opcional: centra las imágenes en el contenedor */
   padding: 0px;
   gap: 30px;
+  border-radius: 20px 20px 0px 0px;
 }
