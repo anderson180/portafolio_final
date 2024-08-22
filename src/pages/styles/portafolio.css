@@ -1,0 +1,136 @@
+.portafolio__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* O cualquier altura deseada */
+}
+.portafolio__container1 {
+  width: 70%;
+  box-shadow: 0px -1px 20px 4px rgba(7, 7, 7, 0.65);
+  margin: 0 auto; /* Centrar horizontalmente */
+  flex: 1; /* Ocupa todo el espacio disponible dentro del contenedor */
+  color: rgb(190, 190, 190);
+  font-size: 40px;
+}
+
+@media (max-width: 1200px) {
+  .portafolio__container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .portafolio__container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .portafolio__container {
+    width: 100%;
+  }
+}
+
+/*con estos estilos de arriba sirben como plantilla para que puedas centra tus proyecto y ser reponsivos*/
+.portafolio__container1 {
+  color: white;
+  height: 100%;
+  text-align: center;
+}
+
+.portafolio__container2 {
+  margin: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(190, 190, 190);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.portafolio__container3 {
+  display: flex;
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  align-items: flex-start; /* Alinea los elementos a la parte superior */
+margin-top: 10%;
+margin-right: 20px;
+}
+.portafolio__container4 {
+  display: flex;
+  align-items: center;
+}
+.portafolio__logo1 {
+width: 50px;
+height: 50px;
+border-radius: 100px;
+border: 3px solid rgb(46, 196, 215) ;
+box-shadow: 0px 0px 3px 3px rgb(141, 141, 141);
+margin-top: -49px;
+}
+
+.portafolio__boton2 {
+  cursor: pointer;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom,  #00d3c5, #012d2ffb );
+  border: none;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 10;
+  color: rgb(175, 174, 174);
+}
+.portafolio__boton2:hover {
+  box-shadow: inset 0px 0px 3px 3px rgba(98, 98, 98, 0.616);/* Opcional: Cambia la sombra al pasar el cursor */
+transition: 0.1s;
+}
+
+.portafolio__title {
+  font-size: 50px;
+  font-weight: 60;
+}
+
+.portafolio__nombre {
+  font-size: 50px;
+  color: rgba(3, 146, 148, 0.964);
+}
+
+.portafolio__p {
+  font-size: 20px;
+}
+
+.blurred-background {
+  filter: blur(5px);
+  pointer-events: none;
+  /* Evita la interacción con el contenido desenfocado */
+}
+.portafolio__boton1 {
+  color: rgba(239, 239, 239, 0.87);
+  font-size: 25px;
+}
+
+.portafolio__boton {
+  height: 50px;
+  border: none; /* Elimina cualquier borde */
+  outline: none; /* Elimina cualquier contorno */
+  border: none; /* Elimina cualquier borde */
+
+}
+.portafolio__boton0 {
+  background-color: rgba(0, 0, 0, 0.298);
+margin-top: 100px;
+margin-left: 20px;
+  width: 50px;
+height: 50px;
+
+border-radius: 100px;
+border: none;
+box-shadow: inset 0px 0px 5px 0px rgba(29, 29, 29, 0.367);
+}
+
+.portafolio__boton0:hover {
+  background-color: rgba(12, 186, 202, 0.371); /* Cambia el color de fondo al pasar el cursor */
+  box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.5); /* Opcional: Cambia la sombra al pasar el cursor */
+transition: 0.1s;
+}

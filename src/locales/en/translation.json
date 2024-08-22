@@ -1,0 +1,14 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "About Me",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "paginainicio": {
+      "welcome": "welcome.!!",
+      "start": "Start",
+      "white": "White",
+      "black": "black"
+    }
+  }

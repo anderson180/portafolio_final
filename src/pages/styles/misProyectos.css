@@ -1,0 +1,166 @@
+.proyecto__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  /* O cualquier altura deseada */
+}
+
+.proyecto__container0 {
+  width: 70%;
+  box-shadow: 0px -1px 20px 4px rgba(7, 7, 7, 0.65);
+  margin: 0 auto;
+  /* Centrar horizontalmente */
+  flex: 1;
+  /* Ocupa todo el espacio disponible dentro del contenedor */
+  color: rgb(190, 190, 190);
+  font-size: 40px;
+}
+
+.proyecto__container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proyecto__title {
+  font-size: 50px;
+  font-weight: 60;
+  margin-top: 130px;
+}
+.proyecto__image-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 350px; /* o el tamaño deseado */
+  margin: 20px;
+}
+.image__title {
+  position: absolute;
+  top: -20px; /* Ajusta esto según necesites para mover el título más arriba o abajo */
+  font-size: 15px;
+  font-weight: 60;
+  color: #aeadad; /* O el color que prefieras */
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+.proyecto__image1 {
+  width: 99%;
+  margin: 10px 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que los elementos se muevan a una nueva línea cuando no hay espacio */
+  justify-content: center;
+  /* Opcional: centra las imágenes en el contenedor */
+  padding: 10px;
+  gap: 30px;
+}
+
+.image__personal {
+  margin: 20px;
+  padding: 10px;
+  width: 360px;
+  height: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: box-shadow 0.1s;
+  box-shadow: 0px 0px 3px 1px rgba(67, 67, 67, 0.653);
+}
+
+.image__personal1:focus {
+  box-shadow: 0px 0px 3px 3px rgb(0, 0, 0);
+  /* Sombra azul alrededor del input */
+}
+
+@media (max-width: 1200px) {
+  .proyecto__container0 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .proyecto__container0 {
+    width: 100%;
+  }
+
+  .proyecto__image1 {
+    width: 220px;
+    margin: 0px 15px;
+    padding: 10px 10px;
+    gap: 0px;
+  }
+
+  .proyecto__title {
+    font-size: 27px;
+    margin-top: 70px;
+height: 10px;
+  }
+}
+
+@media (max-width: 200px) {
+  .proyecto__container0 {
+    width: 100%;
+  }
+
+  .proyecto__image1 {
+    width: 320px;
+    margin: 10px 10px;
+    gap: 0px;
+  }
+
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-image: linear-gradient(to bottom, #1b1b1b, #393a3afb);
+  box-shadow: 0px -1px 18px 2px rgb(0, 0, 0);
+  padding: 20px;
+  border: 2px solid rgb(46, 196, 215);
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal a {
+  display: block;
+  margin: 10px 0;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.modal a:hover {
+  text-decoration: underline;
+}

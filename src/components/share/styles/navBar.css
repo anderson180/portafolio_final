@@ -1,0 +1,118 @@
+.navbar__principal {
+   border: 2px solid rgba(0, 248, 252, 0.752);
+   box-shadow: 0px -1px 20px 4px rgb(7, 7, 7);
+   background-image: linear-gradient(to bottom,  #000000, #262626fb );
+   text-decoration: none;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 13px;
+   position: fixed;/* muy inpornate para mober como quieras, cualquier lado de tu pagina*/
+   left: -7px;
+   top: -7px;
+   right: -2px;
+   height: 100px;
+   z-index: 1000;
+}
+/*.navbar__principal {
+   background-color: #222;
+  background-image: linear-gradient(to bottom, #000000bb, #001a14c6), url('https://images.unsplash.com/photo-1563518839049-f44a5e423f12?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+   margin: -5px;
+   box-shadow: 10px -3px 20px 1px rgb(65, 64, 64);
+  
+}*/
+.blurred-background {
+   filter: blur(5px);
+   pointer-events: none; /* Evita la interacción con el contenido desenfocado */
+ }
+.navbar__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  
+}
+.navbar__list {
+   list-style-type: none;/*este estilo me quitas los puntos o numeracion de cada parrafo*/
+   width: 80%;
+   padding: 0px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+.navbar__title {
+   color: rgba(0, 248, 252, 0.752);
+   font-size: 350%;
+   cursor: pointer;
+}
+.navbar {
+   color: rgb(90, 90, 90);
+   background-color: rgba(0, 0, 0, 0);
+   font-size: 200%;
+   border: none;
+   cursor: pointer;
+}
+
+.navbar__item2 {
+   text-decoration: none;/*=> elimina el sup rrayado de la palabras*/
+   font-size: 20px;
+   font-weight: 50;  /*=> define el gruesor de las letras*/
+   transition: color 0s; /*los segundo para cambiar el color*/
+color: rgb(194, 194, 196);
+}
+/*hover para hacer el cambio de color al poner el punson encima*/
+.navbar__item2:hover {
+   color: aqua;
+}
+.navbar:hover {
+   color: aqua;
+}
+@media (max-width: 568px) {
+   .navbar__list {
+     
+      border-radius: 2px ;
+      padding: 19px 7px;
+      display: flex;
+      flex-direction: column;
+      background-image: linear-gradient(to bottom,  #646262, #bebebe );
+      gap: 15px;
+   }
+   .navbarnone {
+      right: 0;
+      width: 34%;
+     position: fixed;
+     top: 47px;
+     transition: right 0.3s;
+     
+   }
+   .navbar__list3 {
+      /*importante para mover como quieras cualquier cas*/
+      width: 34%;
+     position: fixed;
+     top: 47px;
+     right: -100%;
+     transition: right .3s;
+} 
+.navbar__principal {
+   height: 70px;
+   border: 1px solid rgba(0, 248, 252, 0.752);
+   display: flex;
+   position: fixed;
+   
+}
+.navbar__item2 {
+   color: rgb(53, 52, 52);
+   font-size: 18px;
+}
+.navbar {
+position: fixed;
+   right: 0px;
+}
+.navbar__title {
+   margin: 0px 10px;
+}
+}
