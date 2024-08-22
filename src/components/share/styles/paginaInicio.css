@@ -16,8 +16,8 @@
     background-image: linear-gradient(to bottom,  #1b1b1b, #393a3afb );
     box-shadow: 0px -1px 18px 2px rgb(0, 0, 0);
     border-radius: 40px;
-    width: 450px;
-    height: 440px;
+    width: 330px;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -34,14 +34,14 @@
 display: flex;
 align-items: center;
 color: rgb(148, 148, 148);
-font-size: 19px;
+font-size: 15px;
 }
 .negro {
-   width: 100px; 
+   width: 60px; 
    margin: 7px;
 }
 .pagina__title {
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(148, 148, 148);
     height: 1vh;
 }
@@ -52,26 +52,32 @@ font-size: 19px;
     height: 10vh;
 }
 .pagina__boton {
-    width: 120px;
-    height: 40px;
-    border: 1px solid rgb(32, 32, 32);
-    border-radius: 7px;
-    box-shadow: inset 0px 0px 20px 5px rgb(29, 29, 29);
-    background: #8b8a8a;
-    color: #c5c5c5;
-    font-size: 15px;
     cursor: pointer;
-    
+  width: 150px;
+  height: 35px;
+  border-radius: 11px;
+  background-image: linear-gradient(to bottom,  #00d3c5, #012d2ffb );
+  border: none;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 10;
+  color: rgb(175, 174, 174);
 }
+.pagina__boton:hover {
+    box-shadow: inset 0px 0px 3px 3px rgba(98, 98, 98, 0.616);/* Opcional: Cambia la sombra al pasar el cursor */
+  transition: 0.1s;
+  }
 .espanol {
-    margin: 7px;
+    margin: 1px;
     color: rgb(148, 148, 148);
 }
 .check {
     position: relative;
     width: 50px;
     height: 25px; /* Añadido para asegurar que tenga la altura correcta */
-    margin-left: 10px; /* Espaciado opcional para mejorar la visibilidad */
+     /* Espaciado opcional para mejorar la visibilidad */
 }
 .check::before {
     content: '';
