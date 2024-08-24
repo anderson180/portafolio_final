@@ -7,12 +7,47 @@
 .acercademi__container1 {
   width: 70%;
   box-shadow: 0px -1px 20px 4px rgba(7, 7, 7, 0.65);
-  margin: 0 auto;
-  /* Centrar horizontalmente */
-  flex: 1;
-  /* Ocupa todo el espacio disponible dentro del contenedor */
+  margin: 0 auto; /* Centrar horizontalmente */
+  flex: 1; /* Ocupa todo el espacio disponible dentro del contenedor */
   color: rgb(190, 190, 190);
   font-size: 40px;
+}
+
+
+
+.acercademi__container3 {
+  font-size: 25px;
+   font-weight: 10;
+    margin: 20px 10px; 
+    color: rgb(156, 156, 156);
+}
+
+.acercademi__image1 {
+   /* Puedes usar top, left, right, bottom, o valores específicos como "50% 50%" */
+  overflow: hidden;
+}
+
+.acercademi__container2 {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+.acercademi__title {
+  font-size: 50px;
+  font-weight: 60;
+  margin-top: 130px;
+}
+
+.acercademi__1 {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+  object-position: 0px -20px; /* Puedes usar top, left, right, bottom, o valores específicos como "50% 50%" */
+
 }
 
 @media (max-width: 1268px) {
@@ -21,19 +56,17 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 468px) {
   .acercademi__container {
     width: 100%;
   }
   .acercademi__container1 {
-    width: 100%;
+    width: 97%;
   
   }
   .acercademi__title {
     font-size: 27px;
     margin-top: 70px;
-height: 10px;
-
   }
   .acercademi__1 {
     width: 20px;
@@ -43,56 +76,15 @@ height: 10px;
     
   }
   .acercademi__container3 {
-    color: rgb(155, 153, 153);
-    font-size: 22px;
-    margin: 8%;
+    font-size: 14px;
+    margin: 20px;
+    margin-top: -10px;
+    margin-left: -20px;
     font-weight: 60;
-  
+    text-align: center;
   }
-}
-
-.acercademi__container3 {
-  font-size: 23px;
-   font-weight: 10;
-    margin: 20px 10px; 
-
-}
-
-.acercademi__image1 {
-  width: 95%;
-  margin: 10px 10px;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px;
-  
-}
-
-.acercademi__container2 {
-  display: flex;
-  flex-direction: column;
-
-
-}
-
-.acercademi__title {
-  font-size: 50px;
-  font-weight: 60;
-  margin-top: 130px;
-  display: flex;
-justify-content: center;
-padding: 10px 0px;
-margin:50px 10px;
-}
-
-.acercademi__1 {
-  width: 99%;
-  margin: 0px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  /* Permite que los elementos se muevan a una nueva línea cuando no hay espacio */
-  justify-content: center;
-  /* Opcional: centra las imágenes en el contenedor */
-  padding: 0px;
-  gap: 30px;
-  border-radius: 20px 20px 0px 0px;
+  .acercademi__1 {
+    width: 200px;
+    height: 200px;
+  }
 }

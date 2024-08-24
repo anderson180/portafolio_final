@@ -12,7 +12,9 @@
     "black": "black"
   },
   "por": {
-    "title": "Hello!, I'm Anderson Javier Acibe, a student at Academlo. I'm a web developer"
+    "title": "Hello, my name is...",
+    "title2":"Anderson Javier Acibe ",
+    "title3": "A self-taught web developer, graduated from academlo."
   },
   "mis": {
     "title": "My Projects",

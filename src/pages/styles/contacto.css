@@ -162,7 +162,7 @@ font-size: 13px;
 
 @media (max-width: 480px) {
   .contacto__container1 {
-    width: 100%;
+    width: 97%;
     
   }
   .contacto__cajainput {
@@ -203,6 +203,10 @@ font-size: 13px;
     height: 120px;
     border-radius: 10px;
     margin: 10px 0px;
+    
+  }
+  .section__title {
+    text-align: center;
     
   }
 }

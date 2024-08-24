@@ -47,11 +47,14 @@ const Portafolio = () => {
         <div className='portafolio__container2'>
           
           <div className='portafolio__container4'>
-            <img src={image13} alt="image13" className='portafolio__logo1' />
-            <h1 className='portafolio__title'>{t('por.title')}</h1>
+            {/* <img src={image13} alt="image13" className='portafolio__logo1' />*/}
+            <div className='portafolio__titl'>
+            <h2 className='portafolio__title'>{t('por.title')}</h2>
+            <h2 className='portafolio__title'>{t('por.title2')}</h2>
+            </div>
           </div>
           <span className='portafolio__nombre' ref={typedElementRef}></span>
-          <p className='portafolio__p'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <p className='portafolio__p'><i>{t('por.title3')}</i></p>
           <div className='portafolio__boton'>
             <button className='portafolio__boton0'>
               <a className='portafolio__boton1' href="https://www.linkedin.com/in/javier-acibe-4b9a98309/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin-square'></i></a>

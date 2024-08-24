@@ -71,7 +71,7 @@ color: rgb(194, 194, 196);
 .navbar:hover {
    color: aqua;
 }
-@media (max-width: 568px) {
+@media (max-width: 468px) {
    .navbar__list {
      
       border-radius: 2px ;
